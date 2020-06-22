@@ -144,8 +144,8 @@
                <div class="row">
                   <div class="col-md-6">
                      <h2 class="footer-heading mb-4">About Us</h2>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum
-                        autem. Amet aliquid nesciunt veritatis aliquam.
+                     <p class="text-justify">Aplikasi Temeledicine RSUP Dr. Kariadi merupakan solusi bagi masyarakat dalam melakukan pemeriksaan dengan sistem online.
+                        Kami selalu menghadirkan pelayanan terbaik untuk anda karena kami sahabat menuju sehat.
                      </p>
                   </div>
                   <div class="col-md-4">
