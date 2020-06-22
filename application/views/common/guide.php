@@ -5,6 +5,7 @@
    <title>Telemedicine &mdash; RSUP Dr. Kariadi</title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="shortcut icon" href="<?= base_url('assets/landing/images/logo_kariadi.png') ?>">
    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
    <link rel="stylesheet" href="<?= base_url('assets/landing/') ?>fonts/icomoon/style.css">
    <link rel="stylesheet" href="<?= base_url('assets/landing/') ?>css/bootstrap.min.css">
