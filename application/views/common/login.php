@@ -39,12 +39,12 @@
                <div class="col-12 col-md-10 d-none d-xl-block">
                   <nav class="site-navigation position-relative text-right" role="navigation">
                      <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                        <li class="active"><a href="<?= base_url() ?>">Home</a></li>
+                        <li class="active"><a href="<?= base_url() ?>"><span class="icon-home2"></span> Home</a></li>
                         <!-- <li><a href="http://perjanjian.rskariadi.id/Admission/JadwalDokter" target="_blank">Daftar Online</a></li>
                         <li><a href="http://perjanjian.rskariadi.id/Admission/AdmissionCheckIn" target="_blank">Cek Bukti Pendaftaran </a></li> -->
-                        <li><a href="<?= base_url('register') ?>">Daftar Online</a></li>
-                        <li class=""><a href="<?= base_url('online_checking') ?>">Cek Bukti Pendaftaran </a></li>
-                        <li><a href="<?= base_url('guide') ?>">Panduan Pengguna</a></li>
+                        <li><a href="<?= base_url('register') ?>"><span class="icon-pencil-square-o"></span> Daftar Online</a></li>
+                        <li class=""><a href="<?= base_url('online_checking') ?>"><span class="icon-verified_user"></span> Cek Pendaftaran </a></li>
+                        <li><a href="<?= base_url('guide') ?>"><span class="icon-book"></span> Panduan Pengguna</a></li>
                      </ul>
                   </nav>
                </div>
@@ -63,7 +63,7 @@
                   <div class="col-md-10 text-center">
                      <h1>Selamat Datang Di <span class="typed-words"></span></h1>
                      <p class="lead mb-5">Sahabat Menuju Sehat</p>
-                     <div><a href="#login" class="btn btn-primary btn-md" style="padding: 2% 10% 2% 10%"><b> Mulai Telemedicine</b></a></div>
+                     <div><a href="#login" class="btn btn-primary btn-md" style="padding: 2% 10% 2% 10%"><b> Mulai Telemedicine <span class="icon-stethoscope" style="font-size: 20px;"></span></b></a></div>
 
                   </div>
                </div>
@@ -91,19 +91,20 @@
 
                         <div class="row form-group">
                            <div class="col-md-12">
-                              <label class="text-black" for="username">Nomor Rekam Medis</label>
+                              <label class="text-black" for="username"><span class="icon-vcard-o"></span> Nomor Rekam Medis</label>
                               <input type="text" name="username" id="username" class="form-control">
                            </div>
                         </div>
                         <div class="row form-group">
                            <div class="col-md-12">
-                              <label class="text-black" for="password">Kode Checkin</label>
+                              <label class="text-black" for="password"><span class="icon-dvr"></span> Kode Checkin</label>
                               <input type="password" name="password" id="password" class="form-control">
                            </div>
                         </div>
                         <div class="row form-group">
                            <div class="col-md-12">
-                              <button type="submit" class="btn btn-primary btn-md text-white float-right"><b> Masuk</b></button>
+                              <button type="submit" class="btn btn-primary btn-md text-white float-right"><b> <span class="icon-sign-in
+"></span> Masuk</b></button>
                            </div>
                         </div>
                      </form>

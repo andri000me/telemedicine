@@ -39,10 +39,10 @@
                <div class="col-12 col-md-10 d-none d-xl-block">
                   <nav class="site-navigation position-relative text-right" role="navigation">
                      <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                        <li><a href="<?= base_url() ?>">Home</a></li>
-                        <li><a href="<?= base_url('register') ?>">Daftar Online</a></li>
-                        <li class="active"><a href="<?= base_url('online_checking') ?>">Cek Bukti Pendaftaran </a></li>
-                        <li><a href="<?= base_url('guide') ?>">Panduan Pengguna</a></li>
+                        <li><a href="<?= base_url() ?>"><span class="icon-home2"></span> Home</a></li>
+                        <li><a href="<?= base_url('register') ?>"><span class="icon-pencil-square-o"></span> Daftar Online</a></li>
+                        <li class="active"><a href="<?= base_url('online_checking') ?>"><span class="icon-verified_user"></span> Cek Pendaftaran </a></li>
+                        <li><a href="<?= base_url('guide') ?>"><span class="icon-book"></span> Panduan Pengguna</a></li>
                      </ul>
                   </nav>
                </div>
