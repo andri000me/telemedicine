@@ -69,8 +69,8 @@
    <div class="site-section bg-light" id="checking">
       <div class="container">
          <div class="container-fluid">
-            <div style="height: 800px; overflow: hidden; border:1px">
-               <iframe src="http://perjanjian.rskariadi.id/Admission/AdmissionCheckIn" allowfullscreen="true" frameBorder="0" width="100%" height="70%" style="position: relative;  top: -55px"></iframe>
+            <div style="height: 1000px; overflow: hidden; border:1px">
+               <iframe src="http://perjanjian.rskariadi.id/Admission/AdmissionCheckIn" allowfullscreen="true" frameBorder="0" width="100%" height="100%" style="position: relative;  top: -55px"></iframe>
             </div>
          </div>
       </div>
