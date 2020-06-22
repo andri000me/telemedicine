@@ -33,7 +33,8 @@
          <div class="container">
             <div class="row align-items-center">
                <div class="col-11 col-xl-2">
-                  <h1 class="mb-0 site-logo"><a href="<?= base_url() ?>" class="text-black h2 mb-0">Telemedicine</a></h1>
+                  <a href="<?= base_url() ?>" class="text-black h2 mb-0 "><img src="<?= base_url('assets/landing/images/logo_kariadi.png') ?>" alt="logo_kariadi" class="float-left" width="50%"> Telemedicine
+                  </a>
                </div>
                <div class="col-12 col-md-10 d-none d-xl-block">
                   <nav class="site-navigation position-relative text-right" role="navigation">
