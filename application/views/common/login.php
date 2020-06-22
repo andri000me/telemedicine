@@ -61,16 +61,18 @@
                      <h1>Selamat Datang Di <span class="typed-words"></span></h1>
                      <p class="lead mb-5">Sahabat Menuju Sehat</p>
                      <div><a href="#login" class="btn btn-primary btn-md" style="padding: 2% 10% 2% 10%"><b> Mulai Telemedicine</b></a></div>
+
                   </div>
                </div>
+               <?= $this->session->flashdata('notif'); ?>
             </div>
          </div>
       </div>
    </div>
-   <section class="section ft-feature-1" id="login">
+   <section class="section ft-feature-1">
       <div class="container">
          <div class="row align-items-stretch">
-            <div class="col-12 bg-light w-100 ft-feature-1-content">
+            <div class="col-12 bg-light w-100 ft-feature-1-content" id="login">
                <div class="row align-items-center">
                   <div class="col-lg-5">
                      <div class="h-100">
@@ -83,6 +85,7 @@
                   <div class="col-lg-7 ml-auto">
                      <form action="<?= base_url() ?>auth" method="post" class="p-5 bg-white">
                         <h2 class="h4 text-black mb-5">Masuk</h2>
+
                         <div class="row form-group">
                            <div class="col-md-12">
                               <label class="text-black" for="username">Nomor Rekam Medis</label>
