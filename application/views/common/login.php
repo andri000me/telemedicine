@@ -39,8 +39,10 @@
                   <nav class="site-navigation position-relative text-right" role="navigation">
                      <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
                         <li class="active"><a href="<?= base_url() ?>">Home</a></li>
-                        <li><a href="http://perjanjian.rskariadi.id/Admission/JadwalDokter" target="_blank">Daftar Online</a></li>
-                        <li><a href="http://perjanjian.rskariadi.id/Admission/AdmissionCheckIn" target="_blank">Cek Bukti Pendaftaran </a></li>
+                        <!-- <li><a href="http://perjanjian.rskariadi.id/Admission/JadwalDokter" target="_blank">Daftar Online</a></li>
+                        <li><a href="http://perjanjian.rskariadi.id/Admission/AdmissionCheckIn" target="_blank">Cek Bukti Pendaftaran </a></li> -->
+                        <li><a href="<?= base_url('register') ?>">Daftar Online</a></li>
+                        <li class="active"><a href="<?= base_url('online_checking') ?>">Cek Bukti Pendaftaran </a></li>
                         <li><a href="<?= base_url('guide') ?>">Panduan Pengguna</a></li>
                      </ul>
                   </nav>
