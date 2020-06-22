@@ -33,7 +33,7 @@
          <div class="container">
             <div class="row align-items-center">
                <div class="col-11 col-xl-2">
-                  <a href="<?= base_url() ?>" class="text-black h2 mb-0 "><img src="<?= base_url('assets/landing/images/logo_kariadi.png') ?>" alt="logo_kariadi" class="float-left" width="50%"> Telemedicine
+                  <a href="<?= base_url() ?>" class="text-black h2 mb-0 "><img src="<?= base_url('assets/landing/images/logo_kariadi.png') ?>" alt="logo_kariadi" class="float-left" width="50%">
                   </a>
                </div>
                <div class="col-12 col-md-10 d-none d-xl-block">
@@ -59,15 +59,14 @@
       <div class="container">
          <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
+               <?= $this->session->flashdata('notif'); ?>
                <div class="row justify-content-center mb-4">
                   <div class="col-md-10 text-center">
                      <h1>Selamat Datang Di <span class="typed-words"></span></h1>
                      <p class="lead mb-5">Sahabat Menuju Sehat</p>
                      <div><a href="#login" class="btn btn-primary btn-md" style="padding: 2% 10% 2% 10%"><b> Mulai Telemedicine <span class="icon-stethoscope" style="font-size: 20px;"></span></b></a></div>
-
                   </div>
                </div>
-               <?= $this->session->flashdata('notif'); ?>
             </div>
          </div>
       </div>
