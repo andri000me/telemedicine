@@ -10,10 +10,10 @@
    <!-- BEGIN GLOBAL MANDATORY STYLES -->
    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
    <link href="<?= base_url('assets/') ?>bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-   <link href="<?= base_url('assets/') ?>css/main.css" rel="stylesheet" type="text/css" />
+   <link href="<?= base_url('assets/') ?>assets/css/main.css" rel="stylesheet" type="text/css" />
    <!-- END GLOBAL MANDATORY STYLES -->
    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
-   <link href="<?= base_url('assets/') ?>css/pages/faq/faq.css" rel="stylesheet" type="text/css" />
+   <link href="<?= base_url('assets/') ?>assets/css/pages/faq/faq.css" rel="stylesheet" type="text/css" />
    <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
 </head>
 
@@ -360,12 +360,12 @@
       </div>
    </div>
    <!-- BEGIN GLOBAL MANDATORY STYLES -->
-   <script src="<?= base_url('assets/') ?>js/libs/jquery-3.1.1.min.js"></script>
+   <script src="<?= base_url('assets/') ?>assets/js/libs/jquery-3.1.1.min.js"></script>
    <script src="<?= base_url('assets/') ?>bootstrap/js/popper.min.js"></script>
    <script src="<?= base_url('assets/') ?>bootstrap/js/bootstrap.min.js"></script>
    <!-- END GLOBAL MANDATORY STYLES -->
    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
-   <script src="<?= base_url('assets/') ?>js/pages/faq/faq.js"></script>
+   <script src="<?= base_url('assets/') ?>assets/js/pages/faq/faq.js"></script>
    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
 </body>
 

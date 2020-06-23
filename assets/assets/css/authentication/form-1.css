@@ -217,7 +217,7 @@ body {
   width: 50%;
 }
 .form-image .l-image {
-  background-image: url("../../images/appgirl.png");
+  background-image: url("../../../images/appgirl.png");
   position: absolute;
   top: 0;
   left: 0;

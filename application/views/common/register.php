@@ -10,10 +10,10 @@
    <!-- BEGIN GLOBAL MANDATORY STYLES -->
    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
    <link href="<?= base_url('assets/') ?>bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-   <link href="<?= base_url('assets/') ?>css/plugins.css" rel="stylesheet" type="text/css" />
+   <link href="<?= base_url('assets/') ?>assets/css/plugins.css" rel="stylesheet" type="text/css" />
    <!-- END GLOBAL MANDATORY STYLES -->
    <!--  BEGIN CUSTOM STYLE FILE  -->
-   <link href="<?= base_url('assets/') ?>css/pages/privacy/privacy.css" rel="stylesheet" type="text/css" />
+   <link href="<?= base_url('assets/') ?>assets/css/pages/privacy/privacy.css" rel="stylesheet" type="text/css" />
    <!--  END CUSTOM STYLE FILE  -->
 </head>
 
@@ -82,7 +82,7 @@
    </div>
 
    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
-   <script src="<?= base_url('assets/') ?>js/libs/jquery-3.1.1.min.js"></script>
+   <script src="<?= base_url('assets/') ?>assets/js/libs/jquery-3.1.1.min.js"></script>
    <script src="<?= base_url('assets/') ?>bootstrap/js/popper.min.js"></script>
    <script src="<?= base_url('assets/') ?>bootstrap/js/bootstrap.min.js"></script>
    <!-- END GLOBAL MANDATORY SCRIPTS -->

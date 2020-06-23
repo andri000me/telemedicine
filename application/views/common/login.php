@@ -10,12 +10,12 @@
    <!-- BEGIN GLOBAL MANDATORY STYLES -->
    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
    <link href="<?= base_url('assets/') ?>bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-   <link href="<?= base_url('assets/') ?>css/plugins.css" rel="stylesheet" type="text/css" />
-   <link href="<?= base_url('assets/') ?>css/authentication/form-1.css" rel="stylesheet" type="text/css" />
+   <link href="<?= base_url('assets/') ?>assets/css/plugins.css" rel="stylesheet" type="text/css" />
+   <link href="<?= base_url('assets/') ?>assets/css/authentication/form-1.css" rel="stylesheet" type="text/css" />
    <!-- END GLOBAL MANDATORY STYLES -->
-   <link href="<?= base_url('assets/') ?>css/scrollspyNav.css" rel="stylesheet" type="text/css">
-   <link rel="stylesheet" type="text/css" href="<?= base_url('assets/') ?>css/forms/theme-checkbox-radio.css">
-   <link rel="stylesheet" type="text/css" href="<?= base_url('assets/') ?>css/forms/switches.css">
+   <link href="<?= base_url('assets/') ?>assets/css/scrollspyNav.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" type="text/css" href="<?= base_url('assets/') ?>assets/css/forms/theme-checkbox-radio.css">
+   <link rel="stylesheet" type="text/css" href="<?= base_url('assets/') ?>assets/css/forms/switches.css">
 </head>
 
 <body class="form">
@@ -104,13 +104,13 @@
 
 
    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
-   <script src="<?= base_url('assets/') ?>js/libs/jquery-3.1.1.min.js"></script>
+   <script src="<?= base_url('assets/') ?>assets/js/libs/jquery-3.1.1.min.js"></script>
    <script src="<?= base_url('assets/') ?>bootstrap/js/popper.min.js"></script>
    <script src="<?= base_url('assets/') ?>bootstrap/js/bootstrap.min.js"></script>
 
    <!-- END GLOBAL MANDATORY SCRIPTS -->
-   <script src="<?= base_url('assets/') ?>js/authentication/form-1.js"></script>
-   <script src="<?= base_url('assets/') ?>js/scrollspyNav.js"></script>
+   <script src="<?= base_url('assets/') ?>assets/js/authentication/form-1.js"></script>
+   <script src="<?= base_url('assets/') ?>assets/js/scrollspyNav.js"></script>
    <script src="<?= base_url('assets/') ?>plugins/font-icons/feather/feather.min.js"></script>
    <script type="text/javascript">
       feather.replace();

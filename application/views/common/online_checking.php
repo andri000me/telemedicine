@@ -10,10 +10,10 @@
    <!-- BEGIN GLOBAL MANDATORY STYLES -->
    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
    <link href="<?= base_url('assets/') ?>bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-   <link href="<?= base_url('assets/') ?>css/plugins.css" rel="stylesheet" type="text/css" />
+   <link href="<?= base_url('assets/') ?>assets/css/plugins.css" rel="stylesheet" type="text/css" />
    <!-- END GLOBAL MANDATORY STYLES -->
    <!--  BEGIN CUSTOM STYLE FILE  -->
-   <link href="<?= base_url('assets/') ?>css/pages/privacy/privacy.css" rel="stylesheet" type="text/css" />
+   <link href="<?= base_url('assets/') ?>assets/css/pages/privacy/privacy.css" rel="stylesheet" type="text/css" />
    <!--  END CUSTOM STYLE FILE  -->
 </head>
 
@@ -51,15 +51,7 @@
          </div>
       </div>
    </div>
-   <div class="site-section bg-light" id="checking">
-      <div class="container">
-         <div class="container-fluid">
-            <div style="height: 1000px; overflow: hidden; border:1px">
-               <iframe src="http://perjanjian.rskariadi.id/Admission/AdmissionCheckIn" allowfullscreen="true" frameBorder="0" width="100%" height="100%" style="position: relative;  top: -55px"></iframe>
-            </div>
-         </div>
-      </div>
-   </div>
+
    <div id="miniFooterWrapper" class="">
       <div class="container">
          <div class="row">
@@ -91,7 +83,7 @@
    </div>
    </div>
    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
-   <script src="<?= base_url('assets/') ?>js/libs/jquery-3.1.1.min.js"></script>
+   <script src="<?= base_url('assets/') ?>assets/js/libs/jquery-3.1.1.min.js"></script>
    <script src="<?= base_url('assets/') ?>bootstrap/js/popper.min.js"></script>
    <script src="<?= base_url('assets/') ?>bootstrap/js/bootstrap.min.js"></script>
    <!-- END GLOBAL MANDATORY SCRIPTS -->
