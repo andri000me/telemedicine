@@ -3,25 +3,26 @@
         <div class="card">
             <div class="card-body py-5">
                 <h5>
-                    <?php 
+                    <?php
                     date_default_timezone_set('Asia/Jakarta');
                     $jam = date("H:i:s");
                     ?>
 
-                    <?php	$a = date ("H"); 
-			  		if (($a >= 6) && ($a <= 11)){ ?>
-                    Selamat Pagi,
-                    <?php } else if(($a>11) && ($a<=15)){ ?>
-                    Selamat Siang,
-                    <?php } else if (($a>15) && ($a<=18)) { ?>
-                    Selamat Sore,
+                    <?php $a = date("H");
+                    if (($a >= 6) && ($a <= 11)) { ?>
+                        Selamat Pagi,
+                    <?php } else if (($a > 11) && ($a <= 15)) { ?>
+                        Selamat Siang,
+                    <?php } else if (($a > 15) && ($a <= 18)) { ?>
+                        Selamat Sore,
                     <?php } else { ?>
-                    Selamat Malam,
+                        Selamat Malam,
                     <?php } ?>
                     <?= $this->session->userdata('username') ?> <i class="far fa-smile text-primary"></i> </h5>
                 <hr>
                 <p class="text-dark"> Anda telah terjadwal kontrol online pada tanggal
-                    <b><?php $date = new DateTime($reservation['reservation_date']); echo $date->format('d F Y');  ?></b>
+                    <b><?php $date = new DateTime($reservation['reservation_date']);
+                        echo $date->format('d F Y');  ?></b>
                 </p>
                 <div align="center" class="text-dark">
                     <p>Kode Checkin</p>
@@ -31,7 +32,7 @@
                     <h6><?= $reservation['polyclinic'] ?></h6>
                     <hr>
                 </div>
-             
+
             </div>
         </div>
     </div>
@@ -52,8 +53,7 @@
         </ul>
         <div class="card mt-3 ">
             <div class="card-body py-3">
-                <p align="justify" class="text-dark"> <b class="text-info"> <i class="fas fa-fw fa-info"></i> Petunjuk
-                        !</b>
+                <p align="justify" class="text-dark"> <b class="text-info"> <i class="fas fa-fw fa-info"></i> Petunjuk !</b>
                     <br>
                     Silahkan memilih salah satu layanan telemedicine untuk memulai pelayanan kontrol jarak jauh.
                 </p>

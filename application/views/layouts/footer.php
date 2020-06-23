@@ -1,24 +1,10 @@
-<!-- Bootstrap core JavaScript-->
-<script src="<?= baseurl ?>vendor/jquery/jquery.min.js"></script>
-<script src="<?= baseurl ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- Core plugin JavaScript-->
-<script src="<?= baseurl ?>vendor/jquery-easing/jquery.easing.min.js"></script>
-<!-- Custom scripts for all pages-->
-<script src="<?= baseurl ?>js/admin_script.js"></script>
-<!-- Page level plugins -->
-<script src="<?= baseurl ?>vendor/chart.js/Chart.min.js"></script>
-  <!-- Page level plugins -->
-  <script src="<?= baseurl ?>vendor/datatables/jquery.dataTables.min.js"></script>
-  <script src="<?= baseurl ?>vendor/datatables/dataTables.bootstrap4.min.js"></script>
-
-  <!-- Page level custom scripts -->
-  <script >
-      // Call the dataTables jQuery plugin
-      $(document).ready(function() {
-  $('#dataTable').DataTable();
-});
-
-  </script>
-
-</body>
-</html>
+<div class="footer-wrapper">
+  <div class="footer-section f-section-1">
+    <p class="">Copyright &copy; RSUP Dr. Kariadi 2020 Support by <a href="https://www.codavlo.com" class="text-success">Codavlo Indonesia</a></p>
+  </div>
+  <div class="footer-section f-section-2">
+    <p class="">Coded with <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+      </svg></p>
+  </div>
+</div>
