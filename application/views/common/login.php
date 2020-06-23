@@ -57,16 +57,15 @@
                         </div>
 
                         <div class="field-wrapper text-center keep-logged-in">
-                           <div class="n-chk new-checkbox checkbox-outline-primary">
-                              <label class="new-control new-checkbox checkbox-outline-primary">
-                                 <input type="checkbox" class="new-control-input">
-                                 <span class="new-control-indicator"></span>Biarkan Saya tetap masuk
-                              </label>
-                           </div>
+
+                           <a class="new-control" href="<?= base_url('guide') ?>">
+                              Lihat Panduan Pengguna
+                           </a>
+
                         </div>
 
-                        <div class="field-wrapper">
-                           <a href="<?= base_url('online_checking') ?>" class="forgot-pass-link">Lupa Kode Checkin?</a>
+                        <div class="field-wrapper text-center">
+                           <a href="<?= base_url('online_checking') ?>" class="forgot-pass-link ml-2"> Lupa Kode Checkin?</a>
                         </div>
 
                      </div>

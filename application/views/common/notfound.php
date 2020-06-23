@@ -1,42 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>Telemedicine</title>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" href="<?= base_url('assets/landing/images/logo_kariadi.png') ?>">
-  <!-- Custom fonts for this template -->
-  <link href="<?= base_url() ?>assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-  <!-- Custom styles for this template-->
-  <link href="<?= base_url() ?>assets/css/sb-admin-2.css" rel="stylesheet">
-  <!-- Bootstrap core JavaScript-->
-  <script src="<?= base_url() ?>assets/js/jquery.js"></script>
-  <script src="<?= base_url() ?>assets/js/bootstrap.bundle.min.js"></script>
-</head>
-<!-- Custom styles for this page -->
-<link href="<?= base_url() ?>assets/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+  <title>Page Not Found - Telemedicine RSUP Dr. Kariadi</title>
+  <link rel="icon" type="image/x-icon" href="<?= base_url('assets/images/logo_kariadi.png') ?>" />
+  <!-- BEGIN GLOBAL MANDATORY STYLES -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
+  <link href="<?= base_url('assets/') ?>bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="<?= base_url('assets/') ?>css/plugins.css" rel="stylesheet" type="text/css" />
+  <link href="<?= base_url('assets/') ?>css/pages/error/style-400.css" rel="stylesheet" type="text/css" />
+  <!-- END GLOBAL MANDATORY STYLES -->
 
-<body>
-  <div class="text-center">
-    <div class="error mx-auto" data-text="404">404</div>
-    <p class="lead text-gray-800 mb-5">Halaman Tidak Ditemukan</p>
-    <p class="text-gray-500 mb-0">Ooops.. Halaman yang anda cari tidak ada.</p>
-    <a href="<?= base_url() ?>">&larr; Kembali ke Dashboard</a>
+</head>
+
+<body class="error404 text-center">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 mr-auto mt-5 text-md-left text-center">
+        <a href="<?= base_url() ?>" class="ml-md-5">
+          <img alt="image-404" src="<?= base_url('assets/images/logo_kariadi.png') ?>" class="theme-logo">
+        </a>
+      </div>
+    </div>
   </div>
-  <!-- Core plugin JavaScript-->
-  <script src="<?= base_url() ?>assets/vendor/jquery-easing/jquery.easing.min.js"></script>
-  <!-- Custom scripts for all pages-->
-  <script src="<?= base_url() ?>assets/js/admin_script.js"></script>
-  <!-- Page level plugins -->
-  <script src="<?= base_url() ?>vassets/endor/chart.js/Chart.min.js"></script>
-  <!-- Page level plugins -->
-  <script src="<?= base_url() ?>assets/vendor/datatables/jquery.dataTables.min.js"></script>
-  <script src="<?= base_url() ?>assets/vendor/datatables/dataTables.bootstrap4.min.js"></script>
-  <!-- Page level custom scripts -->
-  <script src="<?= base_url() ?>assets/js/script.js"></script>
+  <div class="container-fluid error-content">
+    <div class="">
+      <h1 class="error-number">404</h1>
+      <p class="mini-text">Ooops!</p>
+      <p class="error-text mb-4 mt-1">Halaman yang Anda cari tidak di temukan!</p>
+      <a href="<?= base_url() ?>" class="btn btn-primary mt-5">Kembali</a>
+    </div>
+  </div>
+  <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+  <script src="<?= base_url('assets/') ?>js/libs/jquery-3.1.1.min.js"></script>
+  <script src="<?= base_url('assets/') ?>bootstrap/js/popper.min.js"></script>
+  <script src="<?= base_url('assets/') ?>bootstrap/js/bootstrap.min.js"></script>
+  <!-- END GLOBAL MANDATORY SCRIPTS -->
 </body>
 
 </html>
