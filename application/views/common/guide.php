@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
    <title>Panduan Telemedicine - RSUP Dr. Kariadi</title>
-   <link rel="icon" type="image/x-icon" href="<?= base_url('assets/images/logo_kariadi.png') ?>" />
+   <link rel="icon" type="image/x-icon" href="<?= base_url('assets/images/favicon.png') ?>" />
    <!-- BEGIN GLOBAL MANDATORY STYLES -->
    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
    <link href="<?= base_url('assets/') ?>bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -21,7 +21,7 @@
    <div class="fq-header-wrapper">
       <nav class="navbar navbar-expand">
          <div class="container">
-            <a class="navbar-brand" href="<?= base_url() ?>">Telemedicine</a>
+            <a class="navbar-brand" href="<?= base_url() ?>"> <img src="<?= base_url('assets/images/favicon.png') ?>" alt="Logo Kariadi"> Telemedicine</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,7 +44,7 @@
             </div>
             <div class="col-md-6 order-md-0 order-0">
                <a target="_blank" href="#" class="banner-img">
-                  <img src="<?= base_url() ?>assets/img/faq.svg" class="d-block" alt="header-image">
+                  <img src="<?= base_url('assets/') ?>assets/img/faq.svg" class="d-block" alt="header-image">
                </a>
             </div>
          </div>

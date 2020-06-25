@@ -4,6 +4,7 @@
       <li class="nav-item theme-logo">
         <a href="<?= base_url() ?>">
           <img src="<?= base_url('assets/images/logo_kariadi.png') ?>" class="navbar-logo md-hidden" alt="logo">
+          <img src="<?= base_url('assets/images/favicon.png') ?>" alt="Logo Kariadi" class="navbar-logo md-visible">
         </a>
       </li>
       <li class="nav-item theme-text">
@@ -21,7 +22,7 @@
       </li>
     </ul>
 
-    <ul class="navbar-item flex-row navbar-dropdown">
+    <!-- <ul class="navbar-item flex-row navbar-dropdown">
       <li class="nav-item dropdown apps-dropdown more-dropdown md-hidden">
         <div class="dropdown  custom-dropdown-icon">
           <a class="dropdown-toggle btn" href="#" role="button" id="appSection" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-crosshair">
@@ -76,7 +77,7 @@
           </div>
         </div>
       </li>
-    </ul>
+    </ul> -->
 
     <ul class="navbar-item flex-row search-ul">
       <li class="nav-item align-self-center search-animated">
@@ -86,129 +87,31 @@
         </svg>
         <form class="form-inline search-full form-inline search" role="search">
           <div class="search-bar">
-            <input type="text" class="form-control search-form-control  ml-lg-auto" placeholder="Search...">
+            <input type="text" class="form-control search-form-control  ml-lg-auto" placeholder="Cari Hasil Kontrol...">
           </div>
         </form>
       </li>
     </ul>
     <ul class="navbar-item flex-row navbar-dropdown">
-      <li class="nav-item dropdown language-dropdown more-dropdown">
-        <div class="dropdown  custom-dropdown-icon">
-          <a class="dropdown-toggle btn" href="#" role="button" id="langDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/ca.png" class="flag-width" alt="flag"><span>English</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg></a>
-
-          <div class="dropdown-menu dropdown-menu-right animated fadeInUp" aria-labelledby="langDropdown">
-            <a class="dropdown-item" data-img-value="de" data-value="German" href="javascript:void(0);"><img src="assets/img/de.png" class="flag-width" alt="flag"> German</a>
-            <a class="dropdown-item" data-img-value="jp" data-value="Japanese" href="javascript:void(0);"><img src="assets/img/jp.png" class="flag-width" alt="flag"> Japanese</a>
-            <a class="dropdown-item" data-img-value="fr" data-value="French" href="javascript:void(0);"><img src="assets/img/fr.png" class="flag-width" alt="flag"> French</a>
-            <a class="dropdown-item" data-img-value="ca" data-value="English" href="javascript:void(0);"><img src="assets/img/ca.png" class="flag-width" alt="flag"> English</a>
-          </div>
-        </div>
-      </li>
-
-      <li class="nav-item dropdown message-dropdown">
-        <a href="javascript:void(0);" class="nav-link dropdown-toggle" id="messageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle">
-            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
-          </svg><span class="badge badge-primary"></span>
-        </a>
-        <div class="dropdown-menu p-0 position-absolute animated fadeInUp" aria-labelledby="messageDropdown">
-          <div class="">
-            <a class="dropdown-item">
-              <div class="">
-
-                <div class="media">
-                  <div class="user-img">
-                    <div class="avatar avatar-xl">
-                      <span class="avatar-title rounded-circle">KY</span>
-                    </div>
-                  </div>
-                  <div class="media-body">
-                    <div class="">
-                      <h5 class="usr-name">Kara Young</h5>
-                      <p class="msg-title">ACCOUNT UPDATE</p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </a>
-            <a class="dropdown-item">
-              <div class="">
-                <div class="media">
-                  <div class="user-img">
-                    <div class="avatar avatar-xl">
-                      <span class="avatar-title rounded-circle">DA</span>
-                    </div>
-                  </div>
-                  <div class="media-body">
-                    <div class="">
-                      <h5 class="usr-name">Daisy Anderson</h5>
-                      <p class="msg-title">ACCOUNT UPDATE</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a class="dropdown-item">
-              <div class="">
-
-                <div class="media">
-                  <div class="user-img">
-                    <div class="avatar avatar-xl">
-                      <span class="avatar-title rounded-circle">OG</span>
-                    </div>
-                  </div>
-                  <div class="media-body">
-                    <div class="">
-                      <h5 class="usr-name">Oscar Garner</h5>
-                      <p class="msg-title">ACCOUNT UPDATE</p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </a>
-          </div>
-        </div>
-      </li>
 
       <li class="nav-item dropdown notification-dropdown">
         <a href="javascript:void(0);" class="nav-link dropdown-toggle" id="notificationDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell">
             <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
             <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-          </svg><span class="badge badge-success"></span>
+          </svg>
+          <!-- <span class="badge badge-success"></span> -->
         </a>
         <div class="dropdown-menu position-absolute animated fadeInUp" aria-labelledby="notificationDropdown">
           <div class="notification-scroll">
 
             <div class="dropdown-item">
-              <div class="media server-log">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-server">
-                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
-                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
-                  <line x1="6" y1="6" x2="6" y2="6"></line>
-                  <line x1="6" y1="18" x2="6" y2="18"></line>
-                </svg>
-                <div class="media-body">
-                  <div class="data-info">
-                    <h6 class="">Server Rebooted</h6>
-                    <p class="">45 min ago</p>
-                  </div>
-
-                  <div class="icon-status">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
-                      <line x1="18" y1="6" x2="6" y2="18"></line>
-                      <line x1="6" y1="6" x2="18" y2="18"></line>
-                    </svg>
-                  </div>
-                </div>
+              <div class="text-center">
+                Tidak Ada Pemberitahuan
               </div>
             </div>
 
-            <div class="dropdown-item">
+            <!-- <div class="dropdown-item">
               <div class="media ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
                   <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
@@ -251,7 +154,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </li>

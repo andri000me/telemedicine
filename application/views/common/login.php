@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
    <title>Telemedicine &mdash; RSUP Dr. Kariadi</title>
-   <link rel="icon" type="image/x-icon" href="<?= base_url('assets/images/logo_kariadi.png') ?>" />
+   <link rel="icon" type="image/x-icon" href="<?= base_url('assets/images/favicon.png') ?>" />
    <!-- BEGIN GLOBAL MANDATORY STYLES -->
    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
    <link href="<?= base_url('assets/') ?>bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -24,7 +24,10 @@
          <div class="form-form-wrap">
             <div class="form-container">
                <div class="form-content">
-                  <h1 class="">Masuk dan Mulai <a href="<?= base_url() ?>"><span class="brand-name"> Telemedicine</span></a></h1>
+                  <h1 class="">Masuk dan Mulai <a href="<?= base_url() ?>">
+                        <br>
+                        <span class="brand-name">
+                           <img src="<?= base_url('assets/images/favicon.png') ?>" alt="Logo Kariadi" width="14%"> Telemedicine</span></a></h1>
                   <p class="signup-link">Belum Terdaftar ? <a href="<?= base_url('register') ?>">Daftar reservasi online</a></p>
                   <form class="text-left" action="<?= base_url() ?>auth" method="post">
                      <div class="form">

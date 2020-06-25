@@ -1,4 +1,4 @@
-<div class="card">
+<!-- <div class="card">
     <div class="card-header">
         <h5 class="text-primary"> Formulir Kritik dan Saran</h5>
     </div>
@@ -22,4 +22,9 @@
           
         </form>
     </div>
-</div>
+</div> -->
+<section>
+    <div style="height: 1100px; overflow: hidden; border:1px">
+        <iframe src="http://pengaduan.rskariadi.id/open.php" allowfullscreen="true" frameBorder="0" width="100%" height="100%" style="position: relative;  top: -160px; bottom:-150px"></iframe>
+    </div>
+</section>

@@ -33,19 +33,19 @@
                </a>
             </li>
             <li class="menu">
-               <a href="<?= base_url('feedback') ?>" aria-expanded="false" class="dropdown-toggle">
+               <a href="<?= base_url('user_guide') ?>" aria-expanded="false" class="dropdown-toggle">
                   <div class="">
                      <div class="icon-container">
-                        <i data-feather="stop-circle"></i><span class="icon-name">Kritik & Saran</span>
+                        <i data-feather="book-open"></i><span class="icon-name">Panduan pengguna</span>
                      </div>
                   </div>
                </a>
             </li>
             <li class="menu">
-               <a href="<?= base_url('user_guide') ?>" aria-expanded="false" class="dropdown-toggle">
+               <a target="_blank" href="<?= base_url('feedback') ?>" aria-expanded="false" class="dropdown-toggle">
                   <div class="">
                      <div class="icon-container">
-                        <i data-feather="book-open"></i><span class="icon-name">Panduan pengguna</span>
+                        <i data-feather="message-circle"></i><span class="icon-name">Pengaduan</span>
                      </div>
                   </div>
                </a>
