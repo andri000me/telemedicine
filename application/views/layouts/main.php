@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
    <title> <?= $title ?></title>
-   <link rel="shortcut icon" href="<?= base_url('assets/landing/images/logo_kariadi.png') ?>">
+   <link rel="shortcut icon" href="<?= base_url('assets/images/logo_kariadi.png') ?>">
    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
    <link href="<?= base_url('assets/') ?>bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
    <link href="<?= base_url('assets/') ?>assets/css/plugins.css" rel="stylesheet" type="text/css" />

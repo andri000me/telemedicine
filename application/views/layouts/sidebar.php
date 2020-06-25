@@ -3,7 +3,7 @@
       <div class="profile-info">
          <figure class="user-cover-image"></figure>
          <div class="user-info">
-            <img src="https://forwardsummit.ca/wp-content/uploads/elementor/thumbs/avatar-default-o2sx2m3qu406gxmnsclfw8fqumxzdk420s5ugc3q8w.png" alt="avatar">
+            <img src="<?= base_url('assets/images/profile-default.png') ?>" alt="avatar">
             <h6 class=""><?= $this->session->userdata('username') ?> </h6>
             <p class=""><?= $this->session->userdata('cm') ?> | <?= $this->session->userdata('checkin_code') ?> </p>
          </div>

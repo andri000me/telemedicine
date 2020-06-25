@@ -1,38 +1,9 @@
-<!-- <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-  <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-    <i class="fa fa-bars"></i>
-  </button>
-  <ul class="navbar-nav ml-auto">
-	  
-    <div class="topbar-divider d-none d-sm-block"></div>
-    <li class="nav-item dropdown no-arrow">
-      <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
-        <span class="mr-2 d-none d-lg-inline text-gray-600 small">Hai, <?= $this->session->userdata('username'); ?> </span>
-      </a>
-      <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-        <?php if ($this->session->userdata('cm')) { ?>
-        <a class="dropdown-item" href="<?= base_url('profile') ?> ">
-          <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-          Profile
-        </a>
-        <div class="dropdown-divider"></div>
-        <?php } ?>
-        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
-          <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-          Keluar
-        </a>
-      </div>
-    </li>
-
-  </ul>
-</nav> -->
 <div class="header-container fixed-top">
   <header class="header navbar navbar-expand-sm">
     <ul class="navbar-nav theme-brand flex-row  text-center">
       <li class="nav-item theme-logo">
-        <a href="index.html">
-          <img src="<?= base_url('assets/images/logo_kariadi.png') ?>" class="navbar-logo" alt="logo">
+        <a href="<?= base_url() ?>">
+          <img src="<?= base_url('assets/images/logo_kariadi.png') ?>" class="navbar-logo md-hidden" alt="logo">
         </a>
       </li>
       <li class="nav-item theme-text">
@@ -295,44 +266,30 @@
         <div class="dropdown-menu position-absolute animated fadeInUp" aria-labelledby="userProfileDropdown">
           <div class="user-profile-section">
             <div class="media mx-auto">
-              <img src="assets/img/90x90.jpg" class="img-fluid mr-2" alt="avatar">
+              <img src="<?= base_url('assets/images/profile-default.png') ?>" class="img-fluid mr-2" alt="avatar">
               <div class="media-body">
-                <h5>Sonia Shaw</h5>
-                <p>Project Leader</p>
+                <h5><?= $this->session->userdata('username') ?> </h5>
+                <p><?= $this->session->userdata('cm') ?></p>
               </div>
             </div>
           </div>
+          <?php if ($this->session->userdata('cm')) { ?>
+            <div class="dropdown-item">
+              <a href="<?= base_url('profile') ?>">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg> <span>Profile Saya</span>
+              </a>
+            </div>
+          <?php } ?>
           <div class="dropdown-item">
-            <a href="user_profile.html">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
-                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg> <span>My Profile</span>
-            </a>
-          </div>
-          <div class="dropdown-item">
-            <a href="apps_mailbox.html">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-inbox">
-                <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
-                <path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path>
-              </svg> <span>My Inbox</span>
-            </a>
-          </div>
-          <div class="dropdown-item">
-            <a href="auth_lockscreen.html">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock">
-                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-              </svg> <span>Lock Screen</span>
-            </a>
-          </div>
-          <div class="dropdown-item">
-            <a href="auth_login.html">
+            <a href="<?= base_url('auth/out') ?>">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
                 <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
                 <polyline points="16 17 21 12 16 7"></polyline>
                 <line x1="21" y1="12" x2="9" y2="12"></line>
-              </svg> <span>Log Out</span>
+              </svg> <span>Keluar</span>
             </a>
           </div>
         </div>
